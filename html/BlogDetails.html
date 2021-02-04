@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/BlogDetails.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../image/birnima.png" type="image/png"></head>
+<body> 
+    
+    <div class="container-fluid imgFluid">
+   <nav class="siteNav">
+        <div class="container">
+             <div class="row py-3">
+                <div class="col-lg-5 col-10">
+                  <a href="index.html"><img  class="img-fluid" src="../image/logo2.webp" alt="logotip"></a></div>
+                <div class="col-lg-7 d-lg-flex justify-content-lg-end d-none">
+
+                    <ul class="nav  font-weight-bold">
+                        <li class="nav-item px-1">
+                          <a class="nav-link text-white " aria-current="page" href="index.html">
+                              Home
+                        </a>
+                        </li>
+                       
+                        <li class="nav-item px-1">
+                          <a class="nav-link text-white" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                          <a class="nav-link dropdown-toggle btn btn-white dropdown-toggle font-weight-bold text-white" href="#" id="navbardrop" data-toggle="dropdown">
+                           Pages
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Courses.html">Cousrses</a>
+                            <a class="dropdown-item" href="CourseDetails.html">Course Details</a>
+                            <a class="dropdown-item" href="#">Elements</a>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown px-1">
+                          <a class="nav-link dropdown-toggle btn btn-white dropdown-toggle font-weight-bold text-warning active" href="#" id="navbardrop" data-toggle="dropdown">
+                            Blog
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Blog.html">Blog</a>
+                            <a class="dropdown-item" href="BlogDetails.html">Blog Details</a>
+                            
+                          </div>
+                        </li>
+                      
+                        <li class="nav-item px-1">
+                            <a class="nav-link text-white" href="Contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item px-1">
+                            <a class="nav-link text-white" href="#"><i class="fa fa-search"></i></a>
+                          </li>
+                      </ul>
+                </div>
+                <div class="col-2 d-lg-none py-2">
+                          
+                  <button class="openbtn border-0" onclick="openNav()"><i class="fa fa-bars fa-2x text-white"></i>  </button>                     
+                  
+                </div>
+
+
+
+            </div>
+        </div>
+</nav>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
+  <a href="index.html">Home</a>
+  <a href="About.html">About</a>
+  <a class="dropdown-toggle btn btn-white" href="#" id="navbardrop" data-toggle="dropdown">
+    Pages
+  </a>
+   <div class="dropdown-menu ">
+     <a class="dropdown-item  text-dark" href="Courses.html">Cousrses</a>
+     <a class="dropdown-item text-dark" href="CourseDetails.html">Course Details</a>
+     <a class="dropdown-item text-dark" href="#">Elements</a>
+   </div> 
+ <div> 
+   <a class="dropdown-toggle btn btn-white" href="#" id="navbardrop" data-toggle="dropdown">
+            Blog
+         </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item text-dark" href="BlogDetails.html">Blog</a>
+            <a class="dropdown-item text-dark" href="BlogDetails.html">Blog Details</a>
+          </div> 
+        </div>
+  <a href="Contact.html">Contact</a>
+  <a href="#"><i class="fa fa-search"></i></a>
+
+</div>
+<div class="py-5">
+  <h1 class="text-center text-white pt-4 font-weight-bold">About Us</h1>
+  <p class="text-center text-white">
+    <a href="index.html" class="text-white text-decoration-none" > Home </a> / 
+    <a class="text-white text-decoration-none" href="Blog.html">  Blog </a> / 
+    <a class="text-white text-decoration-none" href="BlogDetails.html">  Blog Details </a>
+
+</p>
+</div>
+
+</div>
+
+<div class="container mt-5">
+    <div class="row pt-5">
+        <div class="col-lg-8">
+          <div class="px-3">
+            <div>
+                <img class="futureImage" src="../image/feature-img1.jpg" alt="">
+            </div>
+<div class="row mt-3 mb-5">
+            <div class="col-md-3 col-12">
+                <div class="text-md-right text-left py-1"><a class="text-dark" href="#">Food, Technology</a></div>
+                <div class="text-md-right text-left py-1"><a class="text-dark" href="#"> Politics, Lifestyle</a></div>
+                <div class="text-md-right text-left py-1"> <a class="text-dark pr-1" href="#">Mark wiens</a> <i
+                    class="fa fa-user-o"></i></div>
+                <div class="text-md-right text-left py-1"> <a class="text-dark pr-1" href="#">12 Dec, 2017</a> <i
+                    class="fa fa-calendar-o"></i></div>
+                <div class="text-md-right text-left py-1"> <a class="text-dark pr-1" href="#">1.2M Views</a> <i
+                    class="fa fa-eye"></i></div>
+                <div class="text-md-right text-left py-1"> <a class="text-dark pr-1" href="#">06 Comments</a> <i
+                    class="fa fa-comment-o"></i></div>
+            </div>
+
+            <div class="col-md-9 col-12">
+                <a class="text-decoration-none text-dark " href="#"><h4 class="font-weight-bold">Astronomy Binoculars A Great Alternative</h4></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate. Delectus incidunt eaque eveniet, doloribus laborum earum dicta similique sed velit molestiae, in inventore odit dolor quae consequuntur omnis asperiores.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum doloremque distinctio nulla. Maxime repudiandae architecto, magnam numquam accusamus mollitia at quos nulla illo consequuntur obcaecati perspiciatis unde quas officiis tenetur eum. Fuga ipsum illo vitae possimus molestiae. Obcaecati, sint aspernatur? Tempore minima nisi dicta veniam delectus itaque nam voluptatibus deleniti.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda iusto cum, cupiditate nisi dolores commodi expedita omnis pariatur dignissimos soluta animi eveniet? Esse animi ipsam modi reprehenderit placeat, autem quisquam.</p>
+            </div>
+</div>
+        <div class="shadow-sm bg-white"><p class="p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum veritatis, accusantium suscipit culpa quidem, aliquid sit iure, facilis totam vitae autem nam odio doloremque porro? Provident deserunt recusandae, dolorem odit incidunt saepe dolores nisi. Explicabo totam perspiciatis eaque ratione tempore omnis similique blanditiis minus nam, dolore ea corporis adipisci molestiae!</p></div>
+        <div class="row py-3">
+            <div class="col-lg-6 col-12 mb-4 text-center"><img src="../image/post-img1.jpg" alt=""></div>
+            <div class="col-lg-6 col-12 text-center"><img src="../image/post-img2.jpg" alt=""></div>
+        </div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. lorem500 Quos, repudiandae dolorem sit adipisci ut sequi consequuntur tempore unde labore ab optio veniam similique hic iusto architecto fugit, nemo et quibusdam ipsa possimus fuga enim dignissimos? Deserunt voluptatum eveniet, dolor molestiae totam magnam ducimus, est assumenda unde non voluptatem facilis fuga?</p></div>
+      <hr>
+      <div class="row py-5">
+        <div class="col-lg-6 col-12 mb-3">
+          <div class="PrevHover d-flex justify-content-start">
+           <div class="PrevImg"><img src="../image/prev.jpg" alt="">
+              <div class="PrevLeft"><i class="fa fa-arrow-left fa-2x text-white"></i></div>
+
+            </div>
+            <div class="ml-3">
+              <p class="mb-1 font-weight-bold">Prev Post</p>
+              <h5>Space The Final Frontier</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 mb-3">
+          <div class="NextHover d-flex justify-content-end">
+            <div class="order-2 NextImg"><img src="../image/next.jpg" alt="">
+              <div class="NextLeft"><i class="fa fa-arrow-right fa-2x text-white"></i></div>
+
+            </div>
+
+            <div class="mr-3">
+              <p class="text-right mb-1 font-weight-bold">Next Post</p>
+              <h4 class="text-right">Telesscopes 101</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row py-4 bg-light mt-3">
+        <div class="col-12 font-weight-bold text-center mb-3">05 Comments</div>
+        <div class="col-12 d-flex justify-content-between my-3">
+         <div class="d-flex"> <div><img src="../image/c1.jpg" alt=""></div>
+          <div class="ml-3">
+            <h4>Emilly Blunt</h4>
+            <small>December 4, 2017 at 3:12 pm</small>
+            <p>Never say goodbye till the end comes!</p>
+          </div></div>
+          <div>
+            <button class="click">REPLY</button>
+          </div>
+
+        </div>
+<!--  -->
+<div class="col-12 d-flex justify-content-between my-3">
+  <div class="d-flex"> <div><img src="../image/c2.jpg" alt=""></div>
+   <div class="ml-3">
+     <h4>Elsie Cunningham</h4>
+     <small>December 4, 2017 at 3:12 pm</small>
+     <p>Never say goodbye till the end comes!</p>
+   </div></div>
+   <div>
+     <button class="click">REPLY</button>
+   </div>
+
+ </div>
+ <!--  -->
+ <div class="col-12 d-flex justify-content-between my-3">
+  <div class="d-flex"> <div><img src="../image/c3.jpg" alt=""></div>
+   <div class="ml-3">
+     <h4>Annie Stephens</h4>
+     <small>December 4, 2017 at 3:12 pm</small>
+     <p>Never say goodbye till the end comes!</p>
+   </div></div>
+   <div>
+     <button class="click">REPLY</button>
+   </div>
+
+ </div>
+ <!--  -->
+ <div class="col-12 d-flex justify-content-between my-3">
+  <div class="d-flex"> <div><img src="../image/c4.jpg" alt=""></div>
+   <div class="ml-3">
+     <h4>Maria Luna</h4>
+     <small>December 4, 2017 at 3:12 pm</small>
+     <p>Never say goodbye till the end comes!</p>
+   </div></div>
+   <div>
+     <button class="click">REPLY</button>
+   </div>
+
+ </div>
+<!--  -->
+<div class="col-12 d-flex justify-content-between my-3">
+  <div class="d-flex"> <div><img src="../image/c5.jpg" alt=""></div>
+   <div class="ml-3">
+     <h4>Ina Hayes</h4>
+     <small>December 4, 2017 at 3:12 pm</small>
+     <p>Never say goodbye till the end comes!</p>
+   </div></div>
+   <div>
+     <button class="click">REPLY</button>
+   </div>
+</div>
+</div>
+
+<div class="row py-4 px-3 bg-light my-4">
+   <div class="col-12">
+     <p>Leave a Reply</p>
+   </div>
+   <form >
+     <div class="row">
+    <div class="col-6 mb-3"><input class="bg-white w-100 border-0 px-2 py-2" type="text" placeholder="Enter Email"></div>
+    <div class="col-6 mb-3"><input class="bg-white w-100 border-0 px-2 py-2" type="text" placeholder="Enter Email Address"></div>
+    <div class="col-12 mb-3"><input class="bg-white w-100 border-0 px-2 py-2" type="text" placeholder="Subject"></div>
+    <div class="col-12 mb-3"><textarea class="textArea bg-white w-100 border-0 px-2 py-2" placeholder="Messege"></textarea></div>
+      <div class="col-12 mb-3 text-center"><button class="click1">Post Comments</button></div>
+  </div>
+   </form>
+
+</div>
+
+
+
+
+    </div>
+
+      </div>
+        <div class="col-lg-4 col-12 bg-light mb-3">
+            <div class="p-3">
+              <input class="input rounded-pill w-100 p-2 mt-3 mb-2" type="text" placeholder="Search Posts">
+              <hr class="py-2">
+              <div class="text-center">
+                <img src="../image/author.png" alt="">
+                <h4 class="pt-2">Charlie Barber</h4>
+                <p>Senior blog writer</p>
+                <div>
+                  <i class="fa fa-facebook mx-2 icon"></i>
+                  <i class="fa fa-twitter mx-2 icon"></i>
+                  <i class="fa fa-instagram mx-2 icon"></i>
+                  <i class="fa fa-telegram mx-2 icon"></i>
+                </div>
+                <p class="text-secondary py-2">Boot camps have its supporters andit sdetractors. Some people do not
+                  understand why you should have to spend money on boot camp when you can get. Boot camps have itssuppor
+                  ters andits detractors.</p>
+                <hr>
+                <div class="w-100 bg-dark">
+                  <p class="text-white text-center font-weight-bold p-2"> Popular Posts</p>
+                </div>
+              </div>
+              <div class="d-flex py-3">
+                <div><img src="../image/post1.jpg" alt=""></div>
+                <div class="d-block ml-3">
+                  <div><a class="text-decoration-none text-dark font-weight-bold" href="#">Space The Final Fronttier</a>
+                  </div>
+                  <div><small class="text-secondary">02 Hours ago</small>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="d-flex py-3">
+                <div><img src="../image/post2.jpg" alt=""></div>
+                <div class="d-block ml-3">
+                  <div><a class="text-decoration-none text-dark font-weight-bold" href="#">The Amazing Hubble</a></div>
+                  <div><small class="text-secondary">02 Hours ago</small>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="d-flex py-3">
+                <div><img src="../image/post3.jpg" alt=""></div>
+                <div class="d-block ml-3">
+                  <div><a class="text-decoration-none text-dark font-weight-bold" href="#">Astronomy Or Astrology</a></div>
+                  <div><small class="text-secondary">02 Hours ago</small>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="d-flex py-3">
+                <div><img src="../image/post4.jpg" alt=""></div>
+                <div class="d-block ml-3">
+                  <div><a class="text-decoration-none text-dark font-weight-bold" href="#">Astroids telesscope</a></div>
+                  <div><small class="text-secondary">02 Hours ago</small>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="addPicture">
+                <h4 class="text-secondary">300x250 PX</h4>
+                <h4 class="text-secondary">AD GOES HERE</h4>
+    
+              </div>
+              <hr>
+              <div class="w-100 bg-dark">
+                <p class="text-white text-center font-weight-bold p-2">Post Catgories</p>
+              </div>
+    
+              <div class="mb-3">
+                <a href="#" class="LinkHover d-flex justify-content-between text-decoration-none ">
+                  <div class="pb-2"> Technology</div>
+                  <div>37</div>
+                </a>
+              </div>
+    
+              <div class="mb-3">
+                <a href="#" class="LinkHover d-flex justify-content-between text-decoration-none ">
+                  <div class="pb-2"> ListStyle</div>
+                  <div>24</div>
+                </a>
+              </div>
+    
+              <div class="mb-3">
+                <a href="#" class="LinkHover d-flex justify-content-between text-decoration-none ">
+                  <div class="pb-2">Fashion</div>
+                  <div>59</div>
+                </a>
+              </div>
+    
+              <div class="mb-3">
+                <a href="#" class="LinkHover d-flex justify-content-between text-decoration-none ">
+                  <div class="pb-2">Art</div>
+                  <div>22</div>
+                </a>
+              </div>
+    
+              <div class="mb-3">
+                <a href="#" class="LinkHover d-flex justify-content-between text-decoration-none ">
+                  <div class="pb-2">Food</div>
+                  <div>63</div>
+                </a>
+              </div>
+    
+              <div class="mb-3">
+                <a href="#" class="LinkHover d-flex justify-content-between text-decoration-none ">
+                  <div class="pb-2">Architecture</div>
+                  <div>78</div>
+                </a>
+              </div>
+    
+              <div class="mb-5">
+                <a href="#" class="LinkHover d-flex justify-content-between text-decoration-none ">
+                  <div class="pb-2">Adventure</div>
+                  <div>09</div>
+                </a>
+              </div>
+    
+              <div class="w-100 bg-dark">
+                <p class="text-white text-center font-weight-bold p-2">Newsletter</p>
+              </div>
+    
+              <h6 class="text-secondary">Here, I focus on a range of items and features
+                that we use in life without giving them a second thought.</h6>
+    
+              <form class="mt-3 mb-2">
+                <input class="p-2 border-light w-75" type="text" placeholder="Enter email">
+                <button class="click1" type="submit">submit</button>
+              </form>
+              <div class="text-center mb-4"><small>Lorem ipsum dolor sit.</small></div>
+              <hr>
+              <div class="w-100 bg-dark">
+                <p class="text-white text-center font-weight-bold p-2">Tag Clouds</p>
+              </div>
+    
+    
+    <div>
+    <ul class="nav">
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Technology</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Fashion</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Food</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Architecture</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">ListStyle</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Art</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Technology</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Architecture</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Fashion</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Art</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Adventure</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Food</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">ListStyle</a></li>
+    <li class="tagLink nav-item m-1"><a class="text-dark nav-link" href="#">Adventure</a></li>
+    </ul>
+    </div>
+    
+    
+    
+            </div>
+          </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-dark py-5">
+    <div class="container">
+        <div class="row text-white">
+          <div class="col-lg-2 col-md-6 col-12 py-4">
+            <h4 class="text py-4">Top Products</h4>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Managed Website</a></div>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Manage Reputation </a></div>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Power Tools </a></div>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Marketing Service</a></div>
+        </div> 
+          <div class="col-lg-2 col-md-6 col-12 py-4">
+          <h4 class="text py-4">Quick Links</h4>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Jobs</a></div>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Brand Assets</a></div>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Investor Relations</a></div>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Terms of Service</a></div>
+           </div>
+            
+            <div class="col-lg-2 col-md-6 col-12 py-4">
+                <h4 class="text py-4">Features</h4>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Jobs</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Brand Assets </a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Investor Relations</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Terms of Service</a></div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-12 py-4">
+                <h4 class="text py-4">Resources</h4>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Guides</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Research </a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Experts</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Agencies</a></div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 py-4">
+              <h4 class="text py-4">Newsletter</h4>
+              <p>You can trust us. we only send promo offers,</p>
+               <div>
+                <form class="d-flex justify-content-center align-items-center" action="#">
+                  <input class="py-2 bgColor px-3 border-0 mr-2" type="text" placeholder="Your Email Address">
+                  <a href="#"><button class="btn btn-warning py-2 border-0">SUBSCRIBE</button></a>
+                </form>
+              </div>
+            </div>
+
+          <div class="col-lg-8 col-12 py-5 order-lg-1 order-2">
+            <p>Copyright ©2021 All rights reserved | This template is made with <i class="fa fa-heart-o"></i>  by Colorlib</p>
+          </div>
+          <div class="col-lg-4 col-12 order-lg-2 order-1 d-flex align-items-center">
+            <div class="win8"><i class="fa fa-facebook"></i></div>
+            <div class="win8"><i class="fa fa-twitter"></i></div>
+            <div class="win8"><i class="fa fa-linkedin"></i></div>
+            <div class="win8"><i class="fa fa-pinterest-p"></i></div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<script src="../JS/BlogDetailsJS.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

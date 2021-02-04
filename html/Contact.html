@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/ContactStyle.css">
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../image/birnima.png" type="image/png"></head>
+<body> 
+    
+    <div class="container-fluid imgFluid">
+   <nav class="siteNav">
+        <div class="container">
+             <div class="row py-3">
+                <div class="col-lg-5 col-10">
+                  <a href="index.html"><img  class="img-fluid" src="../image/logo2.webp" alt="logotip"></a></div>
+                <div class="col-lg-7 d-lg-flex justify-content-lg-end d-none">
+
+                    <ul class="nav  font-weight-bold">
+                        <li class="nav-item px-1">
+                          <a class="nav-link text-white " aria-current="page" href="index.html">
+                              Home
+                        </a>
+                        </li>
+                       
+                        <li class="nav-item px-1">
+                          <a class="nav-link text-white" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown px-1">
+                          <a class="nav-link dropdown-toggle btn btn-white dropdown-toggle font-weight-bold text-white" href="#" id="navbardrop" data-toggle="dropdown">
+                           Pages
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Courses.html">Cousrses</a>
+                            <a class="dropdown-item" href="CourseDetails.html">Course Details</a>
+                            <a class="dropdown-item" href="#">Elements</a>
+                          </div>
+                        </li>
+
+                        <li class="nav-item dropdown px-1">
+                          <a class="nav-link dropdown-toggle btn btn-white dropdown-toggle font-weight-bold text-white" href="#" id="navbardrop" data-toggle="dropdown">
+                            Blog
+                          </a>
+                          <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Blog.html">Blog</a>
+                            <a class="dropdown-item" href="BlogDetails.html">Blog Details</a>
+                            
+                          </div>
+                        </li>
+                      
+                        <li class="nav-item px-1">
+                            <a class="nav-link text-warning active" href="Contact.html">Contact</a>
+                          </li>
+                          <li class="nav-item px-1">
+                            <a class="nav-link text-white" href="#"><i class="fa fa-search"></i></a>
+                          </li>
+                      </ul>
+                </div>
+                <div class="col-2 d-lg-none py-2">
+                          
+                  <button class="openbtn border-0" onclick="openNav()"><i class="fa fa-bars fa-2x text-white"></i>  </button>                     
+                  
+                </div>
+
+
+
+            </div>
+        </div>
+</nav>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
+  <a href="index.html">Home</a>
+  <a href="About.html">About</a>
+  <a class="dropdown-toggle btn btn-white" href="#" id="navbardrop" data-toggle="dropdown">
+    Pages
+  </a>
+   <div class="dropdown-menu ">
+     <a class="dropdown-item  text-dark" href="Courses.html">Cousrses</a>
+     <a class="dropdown-item text-dark" href="CourseDetails.html">Course Details</a>
+     <a class="dropdown-item text-dark" href="#">Elements</a>
+   </div> 
+ <div> 
+   <a class="dropdown-toggle btn btn-white" href="#" id="navbardrop" data-toggle="dropdown">
+            Blog
+         </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item text-dark" href="BlogDetails.html">Blog</a>
+            <a class="dropdown-item text-dark" href="BlogDetails.html">Blog Details</a>
+          </div> 
+        </div>
+  <a href="Contact.html">Contact</a>
+  <a href="#"><i class="fa fa-search"></i></a>
+
+</div>
+<div class="py-5">
+  <h1 class="text-center text-white pt-4 font-weight-bold">About Us</h1>
+  <p class="text-center text-white">
+    <a href="index.html" class="text-white text-decoration-none" > Home </a> / 
+    <a class="text-white text-decoration-none" href="Contact.html">  Contact </a> 
+</p>
+</div>
+
+</div>
+<div class="container my-5">
+    <div id="map-container-google-3" class="z-depth-1-half map-container-3">
+        <iframe src="https://maps.google.com/maps?q=warsaw&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          style="border:0" allowfullscreen></iframe>
+      </div>
+</div>
+
+<div class="container my-4">
+    <div class="row">
+        <div class="col-lg-3 col-12">
+            <div class="d-flex">
+                <div class="pt-2 pr-2"><i class="fa fa-home fa-2x"></i></div>
+                <div>
+                    <p class="font-weight-bold mb-1">California, United States</p>
+                    <p>Santa monica bullevard</p>
+                </div>
+            </div>
+            <!-- -->
+            <div class="d-flex">
+                <div class="pt-2 pr-2"><i class="fa fa-headphones fa-2x"></i></div>
+                <div>
+                    <p class="font-weight-bold mb-1">00 (440) 9865 562</p>
+                    <p>Mon to Fri 9am to 6 pm</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="d-flex">
+                <div class="pt-2 pr-2"><i class="fa fa-envelope-o fa-2x"></i></div>
+                <div>
+                    <p class="font-weight-bold mb-1">support@colorlib.com</p>
+                    <p>Send us your query anytime!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-9 col-12 mt-4">
+           <form> 
+               <div class="row">
+                <div class="col-md-6 col-12">
+                   <div><input class="w-100 p-1 mb-2" type="text" placeholder="Enter your name"></div>
+                   <div><input class="w-100 p-1 my-2" type="text" placeholder="Enter email address"></div>
+                   <div><input class="w-100 p-1 my-2" type="text" placeholder="Enter subject"></div>
+                </div>
+                <div class="col-md-6 col-12 mt-4 mt-md-0 mt-4">
+                  <div><textarea class="textArea p-2" placeholder="Enter Message"></textarea></div>
+                  <div><button class="click">SEND MESSAGE</button></div>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid bg-dark py-5">
+    <div class="container">
+        <div class="row text-white">
+          <div class="col-lg-2 col-md-6 col-12 py-4">
+            <h4 class="text py-4">Top Products</h4>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Managed Website</a></div>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Manage Reputation </a></div>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Power Tools </a></div>
+            <div class="mb-3"><a class="text-light text-decoration-none" href="#">Marketing Service</a></div>
+        </div> 
+          <div class="col-lg-2 col-md-6 col-12 py-4">
+          <h4 class="text py-4">Quick Links</h4>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Jobs</a></div>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Brand Assets</a></div>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Investor Relations</a></div>
+          <div class="mb-3"><a class="text-light text-decoration-none" href="#">Terms of Service</a></div>
+           </div>
+            
+            <div class="col-lg-2 col-md-6 col-12 py-4">
+                <h4 class="text py-4">Features</h4>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Jobs</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Brand Assets </a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Investor Relations</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Terms of Service</a></div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-12 py-4">
+                <h4 class="text py-4">Resources</h4>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Guides</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Research </a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Experts</a></div>
+                <div class="mb-3"><a class="text-light text-decoration-none" href="#">Agencies</a></div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 py-4">
+              <h4 class="text py-4">Newsletter</h4>
+              <p>You can trust us. we only send promo offers,</p>
+               <div>
+                <form class="d-flex justify-content-center align-items-center" action="#">
+                  <input class="py-2 bgColor px-3 border-0 mr-2" type="text" placeholder="Your Email Address">
+                  <a href="#"><button class="btn btn-warning py-2 border-0">SUBSCRIBE</button></a>
+                </form>
+              </div>
+            </div>
+
+          <div class="col-lg-8 col-12 py-5 order-lg-1 order-2">
+            <p>Copyright ©2021 All rights reserved | This template is made with <i class="fa fa-heart-o"></i>  by Colorlib</p>
+          </div>
+          <div class="col-lg-4 col-12 order-lg-2 order-1 d-flex align-items-center">
+            <div class="win8"><i class="fa fa-facebook"></i></div>
+            <div class="win8"><i class="fa fa-twitter"></i></div>
+            <div class="win8"><i class="fa fa-linkedin"></i></div>
+            <div class="win8"><i class="fa fa-pinterest-p"></i></div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<script src="../JS/ContactJS.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

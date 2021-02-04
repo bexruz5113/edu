@@ -1,0 +1,163 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.siteNav{
+    background-color: #EAE5E9;
+}
+.siteNav-fixed{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    box-shadow: 0 4px 10px 1px #cecacab0;
+    animation: slide 0.9s forwards;
+}
+@keyframes slide {
+    from{
+        transform: translateY(-200px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openbtn{
+    background-color:transparent;
+}
+.firstBgImage{
+    background-image: url(../image/home-banner.webp);
+    background-position: center center;
+    background-size: cover;
+}
+.win1{
+    width: 100%;
+    max-width: 600px;
+}
+
+.click{
+    padding: 15px 30px;
+    background-color: #f8f9fa;
+    border: 1px solid gray;
+    color: rgb(58, 57, 57);
+    transition: all 0.5s ease;
+}
+.click:hover{
+    background-color: #ffc107;
+    color: white;
+}
+.click1{
+background-color: #ffc107;
+border:0;
+padding: 8px 10px;
+
+
+}
+.next{
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+.next:hover{
+    background-color: #ffc107;
+}
+.input{
+    outline: none;
+}
+.icon{
+    transition: all 0.5s ease;
+}
+.icon:hover{
+    color: #ffc107;
+}
+
+.addPicture{
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+    max-width: 400px;
+    background-color: #fff;
+}
+
+.LinkHover{
+    color: grey;
+    transition: all 0.5s ease;
+    border-bottom: 1px dashed rgb(78, 78, 78);
+}   
+.LinkHover:hover{
+    color: hsl(45, 100%, 51%);
+    border-bottom:1px dashed #ffc107;
+}
+
+.tagLink{
+    background-color: #fff;
+    text-align: center;
+    transition: all 0.5s ease;
+    border: 1px solid grey;
+}
+
+.tagLink:hover{
+    background-color:#ffc107;
+
+}
+
+
+
+.win8{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(112, 111, 111, 0.281);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+.win8:hover{
+    background-color: #ffc107;
+    color: #343a40;
+}
